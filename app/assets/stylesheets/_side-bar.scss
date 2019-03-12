@@ -1,0 +1,41 @@
+.side-bar {
+  width: 300px;
+  float: left;
+}
+
+.side-bar-head {
+  background-color: #253141;
+  height: 100px;
+  color: #fff;
+  line-height: 100px;
+  .side-bar-head__user-name {
+    float: left;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .side-bar-head__icon {
+    float: right;
+    padding-right: 20px;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+.side-bar-list {
+  background-color: #2f3e51;
+  height: calc(100vh - 100px);
+}
+.side-bar-list__group{
+  color: #fff;
+  padding: 20px 20px;
+  font-weight: bold;
+  .side-bar-list__group__name {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .side-bar-list__group__text {
+    font-size: 11px;
+  }
+}
