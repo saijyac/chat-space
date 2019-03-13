@@ -7,29 +7,29 @@
   padding: 0 40px;
   height: 100px;
   border-bottom: solid 1px #eee;
-  .maine-head__left-box {
+  &__left-box {
     float: left;
     margin-top: 35px;
-    .maine-head__left-box__group-name {
+    &__group-name {
       font-size: 20px;
       color: #333;
     }
-    .maine-head__left-box__member-list {
+    &__member-list {
       font-size: 12px;
       color: #999;
       margin-top: 15px;
     }
   }
-  .maine-head__right-box {
+  &__right-box {
     float: right;
     margin-top: 28px;
     border: solid 1px #00bfff;
     height: 40px;
     line-height: 40px;
-    a {
+    & a {
       text-decoration: none;
     }
-    .maine-head__right-box__btn{
+    &__btn{
       margin: 0 20px;
       color: #00bfff;
     }
@@ -39,10 +39,10 @@
   background-color: #fafafa;
   height: calc(100vh - 190px);
   padding: 6px 40px 0 40px;
-  .maine-messages__message {
+  &__message {
     padding-top: 40px;
-    .maine-messages__message__info {
-      .maine-messages__message__info__user-name{
+    &__info {
+      &__user-name{
         float: left;
         font-size: 16px;
         margin-right: 10px;
@@ -50,12 +50,12 @@
         font-weight: bold;
 
       }
-      .maine-messages__message__info__data {
+      &__data {
         font-size: 12px;
         color: #999;
       }
     }
-    .maine-messages__message__text{
+    &__text{
       font-size: 14px;
       margin-top: 10px;
       color: #434A54;

@@ -1,44 +1,44 @@
 %body
-  %div.side-bar
-    %div.side-bar-head
+  .side-bar
+    .side-bar-head
       %h2.side-bar-head__user-name test-user
-      %div.side-bar-head__icon
+      .side-bar-head__icon
         = link_to '/' do
           %i.fa.fa-edit
         = link_to '/' do
           %i.fa.fa-cog
-    %div.side-bar-list
-      %div.side-bar-list__group
+    .side-bar-list
+      .side-bar-list__group
         %p.side-bar-list__group__name test-group
         %p.side-bar-list__group__text さようなら
-      %div.side-bar-list__group
+      .side-bar-list__group
         %p.side-bar-list__group__name sample-group
         %p.side-bar-list__group__text hello!
-      %div.side-bar-list__group
+      .side-bar-list__group
         %p.side-bar-list__group__name example
         %p.side-bar-list__group__text まだメッセージがありません
-  %div.maine
-    %div.maine-head
-      %div.maine-head__left-box
+  .maine
+    .maine-head
+      .maine-head__left-box
         %h2.maine-head__left-box__group-name test-group
         %p.maine-head__left-box__member-list Member: sample
-      %div.maine-head__right-box
+      .maine-head__right-box
         = link_to '/' do
           %p.maine-head__right-box__btn Edit
-    %div.maine-messages
-      %div.maine-messages__message
-        %div.maine-messages__message__info
+    .maine-messages
+      .maine-messages__message
+        .maine-messages__message__info
           %p.maine-messages__message__info__user-name test-user
           %p.maine-messages__message__info__data 2019/03/10(sun) 15:04:00
         %p.maine-messages__message__text こんにちわ
-      %div.maine-messages__message
-        %div.maine-messages__message__info
+      .maine-messages__message
+        .maine-messages__message__info
           %p.maine-messages__message__info__user-name test-user
           %p.maine-messages__message__info__data 2019/03/10(sun) 15:05:23
         %p.maine-messages__message__text さようなら
-    %div.form
+    .form
       %form.new-message
-        %div.input-box
+        .input-box
           %input.input-box__text(type="text" placeholder="type a message")
             %input#message-image(type="file" style="display:none")
               %label.input-box__image(for="message-image")

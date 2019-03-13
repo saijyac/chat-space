@@ -8,13 +8,13 @@
   height: 100px;
   color: #fff;
   line-height: 100px;
-  .side-bar-head__user-name {
+  &__user-name {
     float: left;
     padding-left: 20px;
     font-size: 16px;
     font-weight: bold;
   }
-  .side-bar-head__icon {
+  &__icon {
     float: right;
     padding-right: 20px;
     a {
@@ -31,11 +31,11 @@
   color: #fff;
   padding: 20px 20px;
   font-weight: bold;
-  .side-bar-list__group__name {
+  &__name {
     font-size: 15px;
     margin-bottom: 5px;
   }
-  .side-bar-list__group__text {
+  &__text {
     font-size: 11px;
   }
 }

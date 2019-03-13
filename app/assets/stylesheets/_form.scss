@@ -9,13 +9,13 @@
 .input-box {
   width: 100%;
   position: relative;
-  .input-box__text {
+  &__text {
     height: 50px;
     padding: 0 40px 0 10px;
     width: 100%;
     @include placeholder();
   }
-  .input-box__image {
+  &__image {
     font-size: 1.3rem;
     position: absolute;
     top: 10px;
