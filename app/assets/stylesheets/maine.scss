@@ -1,0 +1,65 @@
+.maine {
+  width: calc(100vw - 300px);
+  float: left;
+  height: 100vh;
+}
+.maine-head {
+  padding: 0 40px;
+  height: 100px;
+  border-bottom: solid 1px #eee;
+  &__left-box {
+    float: left;
+    margin-top: 35px;
+    &__group-name {
+      font-size: 20px;
+      color: #333;
+    }
+    &__member-list {
+      font-size: 12px;
+      color: #999;
+      margin-top: 15px;
+    }
+  }
+  &__right-box {
+    float: right;
+    margin-top: 28px;
+    border: solid 1px #00bfff;
+    height: 40px;
+    line-height: 40px;
+    & a {
+      text-decoration: none;
+    }
+    &__btn{
+      margin: 0 20px;
+      color: #00bfff;
+    }
+  }
+}
+.maine-messages {
+  background-color: #fafafa;
+  height: calc(100vh - 190px);
+  padding: 6px 40px 0 40px;
+  &__message {
+    padding-top: 40px;
+    &__info {
+      &__user-name{
+        float: left;
+        font-size: 16px;
+        margin-right: 10px;
+        color: #434A54;
+        font-weight: bold;
+
+      }
+      &__data {
+        font-size: 12px;
+        color: #999;
+      }
+    }
+    &__text{
+      font-size: 14px;
+      margin-top: 10px;
+      color: #434A54;
+    }
+  }
+}
+

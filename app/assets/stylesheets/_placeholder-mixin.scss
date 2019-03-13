@@ -1,0 +1,26 @@
+@mixin placeholder() {
+  &:placeholder-shown {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  &::-webkit-input-placeholder {
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+  }
+  &:-moz-placeholder {
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+  }
+  &::-moz-placeholder {
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+  }
+  &:-ms-input-placeholder {
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+  }
+}
