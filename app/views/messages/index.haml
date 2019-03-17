@@ -1,22 +1,6 @@
 %body
-  .side-bar
-    .side-bar-head
-      %h2.side-bar-head__user-name test-user
-      .side-bar-head__icon
-        = link_to '/' do
-          %i.fa.fa-edit
-        = link_to '/' do
-          %i.fa.fa-cog
-    .side-bar-list
-      .side-bar-list__group
-        %p.side-bar-list__group__name test-group
-        %p.side-bar-list__group__text さようなら
-      .side-bar-list__group
-        %p.side-bar-list__group__name sample-group
-        %p.side-bar-list__group__text hello!
-      .side-bar-list__group
-        %p.side-bar-list__group__name example
-        %p.side-bar-list__group__text まだメッセージがありません
+  = render 'shared/side_bar'
+
   .maine
     .maine-head
       .maine-head__left-box
