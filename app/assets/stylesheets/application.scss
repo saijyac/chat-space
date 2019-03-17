@@ -1,9 +1,12 @@
-@import "./reset";
+@import "config/reset";
 @import "font-awesome";
-@import "placeholder-mixin";
-@import "side-bar";
-@import "maine";
-@import "form";
+@import "mixins/placeholder-mixin";
+@import "modules/user";
+@import "modules/side-bar";
+@import "modules/maine";
+@import "modules/form";
+@import "modules/flash";
+@import "modules/group";
 
 
 * {
